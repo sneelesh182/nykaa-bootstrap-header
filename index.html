@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <style>
+      nav.navbar {
+        margin-top: 0px;
+      }
+      div.c {
+        background: linear-gradient(
+          to right,
+          #f3add0,
+          #f3add0,
+          #e9ebbb,
+          #e9ebbb,
+          #e9ebbb,
+          #f29b96,
+          #e9ebbb,
+          #e9d3a6,
+          #f07d89
+        );
+        box-sizing: border-box;
+        padding-inline: 40px;
+        height: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav style="margin-top: -8px" class="container navbar a">
+      <div class="c container-fluid d-flex justify-content-end gap-5">
+        <span class="d-flex align-items-center gap-1">
+          <span class="material-symbols-outlined"> smartphone </span>
+          <span class="navbar-text border-end pe-2 border-black">
+            Get App
+          </span></span
+        >
+        <span class="d-flex align-items-center gap-1">
+          <span class="material-symbols-outlined"> location_on </span>
+          <span class="navbar-text border-end pe-2 border-black">
+            Store & Events
+          </span></span
+        >
+        <span class="d-flex align-items-center gap-1">
+          <span class="material-symbols-outlined"> redeem </span>
+          <span class="navbar-text border-end pe-2 border-black">
+            Gift Card
+          </span></span
+        >
+        <span class="d-flex align-items-center gap-1">
+          <span class="material-symbols-outlined"> help </span>
+          <span class="navbar-text"> Help </span></span
+        >
+      </div>
+    </nav>
+    <nav class="container navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <img
+          style="width: 130px"
+          src="data:image/png;base64,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"
+          alt=""
+        />
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4">
+            <span>Categories</span>
+            <span>Brands</span>
+            <span>Luxe</span>
+            <span>Nykaa Fashion</span>
+            <span>Beauty Advice</span>
+          </ul>
+          
+          <form class="d-flex align-items-center" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              
+              placeholder="Search on Nykaa"
+              aria-label="Search"
+            /> 
+            
+          </form>
+          <button
+              style="
+                background-color: #ea3d72;
+                color: white;
+                box-sizing: border-box;
+                padding: 8px 20px;
+                font-size: 14px;
+                font-weight:500;
+              "
+              class="btn"
+            >
+              Sign in
+            </button>
+            <span style="margin-left: 50px;" class="material-symbols-outlined">
+                shopping_bag
+                </span>
+        </div>
+      </div>
+    </nav>
+    <nav class="container navbar border-top">
+        <div  class="container-fluid">
+          <span class="navbar-text">
+            Makeup
+          </span>
+          <span class="navbar-text">
+            Skin
+          </span>
+          <span class="navbar-text">
+            Hair
+          </span>
+          <span class="navbar-text">
+            Appliances
+          </span>
+          <span class="navbar-text">
+            Bath & Body
+          </span>
+          <span class="navbar-text">
+            Natural
+          </span>
+          <span class="navbar-text">
+            Mom & Baby
+          </span>
+          <span class="navbar-text">
+            Health& Wellness
+          </span>
+          <span class="navbar-text">
+            Men
+          </span>
+          <span class="navbar-text">
+            Fragrance
+          </span>
+          <span class="navbar-text">
+            Lingerie & Accessories
+          </span>
+        </div>
+      </nav>
+  </body>
+</html>
